@@ -1,5 +1,5 @@
 {
-  "extends": ["eslint:recommended", "prettier"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaVersion": 13,
@@ -36,7 +36,7 @@
   "globals": {
     "jest": true
   },
-  "plugins": ["react", "import", "react-percy", "jsx"],
+  "plugins": ["react", "import", "react-percy", "jsx", "prettier"],
   "overrides": [
     {
       "files": ["**/*.percy.{js,jsx}"],
