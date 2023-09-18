@@ -19,6 +19,7 @@
   },
   "homepage": "http://plotly.github.io/react-chart-editor",
   "devDependencies": {
+    "eslint-plugin-prettier": "^5.0.0",
     "gh-pages": "^5.0.0"
   }
 }
